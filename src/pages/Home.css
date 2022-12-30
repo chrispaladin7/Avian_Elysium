@@ -1,0 +1,95 @@
+ion-grid {
+    background:white 0.8;
+    /* animation: gradient 15s ease infinite; */
+    /* --ion-grid-padding: 20px; */
+  
+    --ion-grid-padding-xs: 10px;
+    --ion-grid-padding-sm: 10px;
+    --ion-grid-padding-md: 10px;
+    --ion-grid-padding-lg: 10px;
+    --ion-grid-padding-xl: 10px;
+  
+    --ion-grid-column-padding: 20px;
+  
+    --ion-grid-column-padding-xs: 20px;
+    --ion-grid-column-padding-sm: 20px;
+    --ion-grid-column-padding-md: 20px;
+    --ion-grid-column-padding-lg: 20px;
+    --ion-grid-column-padding-xl: 20px;
+   
+  }
+  
+  ion-col {
+    /* background-color: whitesmoke; */
+  
+    color: black;
+    text-align: center;
+    
+    /* border-style: groove; */
+    /* border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px; */
+  }
+  ion-row{
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    animation: gradient 15s ease infinite;
+  /* opacity: 70%; */
+    color: black;
+    text-align: center;
+    
+  }
+  
+  ion-card{
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    margin: 0 !important;
+    border-radius: 10px;
+  }
+  
+  
+  
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  
+  ion-content{
+    /* --ion-background-color:#111D12; */
+    --background:  #ccc url("Projectionic.gif") 0 0/100% 100% no-repeat !important;  
+  }
+  
+  center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  capacitor-google-map {
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+  }
+
+  ion-modal{
+    background-color: #ccc;
+   
+   
+  }
+
+  ion-card.custom-textarea {
+    --background: #373737;
+    --color: #fff;
+    --padding-end: 10px;
+    --padding-start: 10px;
+    --placeholder-color: #ddd;
+    --placeholder-opacity: 0.8;
+  }

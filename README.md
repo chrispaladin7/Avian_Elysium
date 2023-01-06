@@ -48,3 +48,5 @@ The app will open in your default browser.
 ## Usage
 On the map, you'll see markers representing the location of each bird.
 
+Hosted on Firebase: https://ionicproject-4c05f.web.app
+

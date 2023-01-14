@@ -1,3 +1,5 @@
+This was my final assignment from my Mobile Web Development CS 641 Class from Pace Fall 2022, to demonstrate what we learnt over the course.  
+
 # Avian_Elysium
 Avian_Elysium is an Ionic/React app that displays the location of various bird species on a map using the Google Map Capacitor plugin. The app fetches bird data from a public API and displays the location of each bird on the map.
 
@@ -49,4 +51,6 @@ The app will open in your default browser.
 On the map, you'll see markers representing the location of each bird.
 
 Hosted on Firebase: https://ionicproject-4c05f.web.app
+
+Date:21 Dec 2022
 
